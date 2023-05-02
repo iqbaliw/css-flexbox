@@ -5,6 +5,7 @@
 
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
 }
 
 .wrapper {
@@ -121,4 +122,44 @@ body {
 .container13 {
     display: flex;
     justify-content: space-evenly;
+}
+
+.wrapper-align-items {
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.containerh100 {
+    height: 100px;
+}
+
+.container14 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.container15 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.container16 {
+    display: flex;
+    align-items: center;
+}
+
+.container17 {
+    display: flex;
+    align-items: stretch;
+}
+
+.container18 {
+    display: flex;
+    align-items: first baseline;
+}
+
+.container19 {
+    display: flex;
+    align-items: last baseline;
 }
