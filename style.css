@@ -41,7 +41,7 @@ body {
     margin: 20px auto;
 }
 
-.wrapper h1 {
+.wrapper h2 {
     text-align: center;
     margin-bottom: 10px;
 }
@@ -190,4 +190,51 @@ body {
 .container19 {
     display: flex;
     align-items: last baseline;
+}
+
+.wrapper-order-items {
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.d-flex-jt-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container20 .item1 {
+    order: 0;
+}
+
+.container20 .item2 {
+    order: 1;
+}
+
+.container20 .item3 {
+    order: 2;
+}
+
+.container21 .item1 {
+    order: 2;
+}
+
+.container21 .item2 {
+    order: 1;
+}
+
+.container21 .item3 {
+    order: 0;
+}
+
+.container22 .item1 {
+    order: 2;
+}
+
+.container22 .item2 {
+    order: 0;
+}
+
+.container22 .item3 {
+    order: 1;
 }
