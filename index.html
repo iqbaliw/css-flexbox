@@ -8,36 +8,41 @@
         <title>The CSS Flexbox</title>
     </head>
     <body>
+        <header>
+            <h1>The CSS Flexbox</h1>
+            <small>by <a href="https://github.com/iqbaliw" target="_blank">Iqbaliw</a> | reference: <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">css-tricks</a></small>
+        </header>
+
         <div class="outer-wrapper">
             <div class="flex-container">
-                <h1 class="text-center">Properties for the Parent</h1>
-                <h2 class="text-center">(flex container)</h2>
+                <h2 class="text-center">Properties for the Parent</h1>
+                <h3 class="text-center">(flex container)</h3>
 
                 <div class="wrapper">
                     <div class="wrapper-flex-direction">
-                        <h2>Flex Direction</h2>
-                        <h3>1. flex-direction: row (default)</h3>
+                        <h3>Flex Direction</h3>
+                        <h4>1. flex-direction: row (default)</h4>
                         <div class="container container1">
                             <div class="item11">Item 1</div>
                             <div class="item12">Item 2</div>
                             <div class="item13">Item 3</div>
                         </div>
 
-                        <h3>2. flex-direction: row-reverse</h3>
+                        <h4>2. flex-direction: row-reverse</h4>
                         <div class="container container2">
                             <div class="item21">Item 1</div>
                             <div class="item22">Item 2</div>
                             <div class="item23">Item 3</div>
                         </div>
 
-                        <h3>3. flex-direction: column</h3>
+                        <h4>3. flex-direction: column</h4>
                         <div class="container container3">
                             <div class="item31">Item 1</div>
                             <div class="item32">Item 2</div>
                             <div class="item33">Item 3</div>
                         </div>
 
-                        <h3>4. flex-direction: column-reverse</h3>
+                        <h4>4. flex-direction: column-reverse</h4>
                         <div class="container container4">
                             <div class="item41">Item 1</div>
                             <div class="item42">Item 2</div>
@@ -46,22 +51,22 @@
                     </div>
 
                     <div class="wrapper-flex-wrap">
-                        <h2>Flex Wrap</h2>
-                        <h3>1. flex-wrap: nowrap (default)</h3>
+                        <h3>Flex Wrap</h3>
+                        <h4>1. flex-wrap: nowrap (default)</h4>
                         <div class="container container5">
                             <div class="item51">Item 1 (width: 35%)</div>
                             <div class="item52">Item 2 (width: 35%)</div>
                             <div class="item53">Item 3 (width: 35%)</div>
                         </div>
 
-                        <h3>2. flex-wrap: wrap</h3>
+                        <h4>2. flex-wrap: wrap</h4>
                         <div class="container container6">
                             <div class="item61">Item 1 (width: 35%)</div>
                             <div class="item62">Item 2 (width: 35%)</div>
                             <div class="item63">Item 3 (width: 35%)</div>
                         </div>
 
-                        <h3>3. flex-wrap: wrap-reverse</h3>
+                        <h4>3. flex-wrap: wrap-reverse</h4>
                         <div class="container container7">
                             <div class="item71">Item 1 (width: 35%)</div>
                             <div class="item72">Item 2 (width: 35%)</div>
@@ -70,43 +75,43 @@
                     </div>
 
                     <div class="wrapper-justify-content">
-                        <h2>Justify Content</h2>
-                        <h3>1. flex-start (default)</h3>
+                        <h3>Justify Content</h3>
+                        <h4>1. flex-start (default)</h4>
                         <div class="container container8">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>2. flex-end</h3>
+                        <h4>2. flex-end</h4>
                         <div class="container container9">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>3. center</h3>
+                        <h4>3. center</h4>
                         <div class="container container10">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>4. space-between</h3>
+                        <h4>4. space-between</h4>
                         <div class="container container11">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>5. space-around</h3>
+                        <h4>5. space-around</h4>
                         <div class="container container12">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>6. space-evenly</h3>
+                        <h4>6. space-evenly</h4>
                         <div class="container container13">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
@@ -115,43 +120,43 @@
                     </div>
 
                     <div class="wrapper-align-items">
-                        <h2>Align Items</h2>
-                        <h3>1. flex-start</h3>
+                        <h3>Align Items</h3>
+                        <h4>1. flex-start</h4>
                         <div class="container container14 containerh100">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>2. flex-end</h3>
+                        <h4>2. flex-end</h4>
                         <div class="container container15 containerh100">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>3. center</h3>
+                        <h4>3. center</h4>
                         <div class="container container16 containerh100">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>4. stretch</h3>
+                        <h4>4. stretch</h4>
                         <div class="container container17 containerh100">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>5. first baseline</h3>
+                        <h4>5. first baseline</h4>
                         <div class="container container18 containerh100">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
                             <div class="item">Item 3</div>
                         </div>
 
-                        <h3>6. last baseline</h3>
+                        <h4>6. last baseline</h4>
                         <div class="container container19 containerh100">
                             <div class="item">Item 1</div>
                             <div class="item">Item 2</div>
@@ -161,13 +166,14 @@
                 </div>
             </div>
             <div class="flex-items">
-                <h1 class="text-center">Properties for the Children</h1>
-                <h2 class="text-center">(flex items)</h2>
+                <h2 class="text-center">Properties for the Children</h1>
+                <h3 class="text-center">(flex items)</h3>
 
                 <div class="wrapper">
                     <div class="wrapper-order-items">
-                        <h2>Order</h2>
-                        <h3>1. order: 0 (default) to 3</h3>
+                        <h3>Order</h3>
+
+                        <h4>1. order: 0 (default) to 3</h4>
                         <div
                             class="container container20 d-flex-jt-space-around"
                         >
@@ -176,7 +182,7 @@
                             <div class="item3">Item 3</div>
                         </div>
 
-                        <h3>2. order: 3 to 1</h3>
+                        <h4>2. order: 3 to 1</h4>
                         <div
                             class="container container21 d-flex-jt-space-around"
                         >
@@ -185,9 +191,38 @@
                             <div class="item3">Item 3</div>
                         </div>
 
-                        <h3>3. order: random</h3>
+                        <h4>3. order: random</h4>
                         <div
                             class="container container22 d-flex-jt-space-around"
+                        >
+                            <div class="item1">Item 1</div>
+                            <div class="item2">Item 2</div>
+                            <div class="item3">Item 3</div>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-flex-grow">
+                        <h3>Flex Grow</h3>
+
+                        <h4>1. flex-grow: 1</h4>
+                        <div
+                            class="container container23 d-flex-jt-space-around"
+                        >
+                            <div class="item1">Item 1</div>
+                            <div class="item2">Item 2</div>
+                            <div class="item3">Item 3</div>
+                        </div>
+
+                        <h4>2. flex-grow: 0 1 0</h4>
+                        <div class="container container24 d-flex-fd-row">
+                            <div class="item1">Item 1</div>
+                            <div class="item2">Item 2</div>
+                            <div class="item3">Item 3</div>
+                        </div>
+
+                        <h4>3. align-self</h4>
+                        <div
+                            class="container container25 d-flex-jt-space-around containerh100"
                         >
                             <div class="item1">Item 1</div>
                             <div class="item2">Item 2</div>
@@ -197,5 +232,9 @@
                 </div>
             </div>
         </div>
+
+        <footer>
+            <p>&copy; 2023 - <a href="https://www.aneiqbal.com/" target="_blank">AneIqbal</a> </p>
+        </footer>
     </body>
 </html>
